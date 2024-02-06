@@ -1,0 +1,131 @@
+body.no-scroll {
+    overflow-y: hidden;
+}
+
+body.page-financement .hg-lead-form input {
+    margin-bottom: 16px;
+}
+
+body.page-template-page-homepage header .searchBox {
+    display: none;
+}
+
+body.page-template-page-homepage header .btns {
+    margin-left: 20px;
+}
+
+body.es header .row {
+    width: 1308px;
+}
+
+body.home header input {
+	background-color: #DFF2EB;
+}
+
+.row {
+	width: 100% !important;
+	padding: 0 38px;
+	box-sizing: border-box;
+}
+
+.modal {
+	display: none;
+}
+
+ul {
+	padding: 0px;
+}
+
+input[type=checkbox] {
+    width: 24px;
+    height: 24px;
+    margin: -3px 3px 0 0;
+    -webkit-appearance: none;
+    background-color: #fff;
+    border: 1px solid #B5B5B5;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    outline: 0;
+    border-radius: 4px;
+}
+
+input[type=checkbox]:checked {
+    background-color: #387D65;
+    border: 1px solid #387D65;
+}
+
+input[type=checkbox]:checked:after {
+    content: '';
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    font-size: 14px;
+    width: 5px;
+    border-bottom: 2px solid #fff;
+    height: 11px;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+}
+
+body.filters-open #matadorMobileCta123789IFrame {
+    display: none;
+}
+
+@media (max-width: 875px) {
+    body.wpcd-srp .row, body.wpcd-vdp .row {
+        padding: 0px;
+    }
+    body.wpcd-srp header, body.wpcd-vdp header {
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    body.wpcd-srp header .row, body.wpcd-vdp header .row {
+        height: 74px;
+    }
+    body.wpcd-srp footer, body.wpcd-vdp footer {
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    body.wpcd-srp header {
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        background: #fff;
+        z-index: 9999;
+    }
+    .filters-open #catalogue-container .container-fluid>.row {
+        height: 100%;
+    }
+    #catalogue-container .container-fluid {
+        height: 100%;
+    }
+    html.no-scroll, body.no-scroll, body.filters-open {
+        overflow: hidden;
+        position: relative;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 875px) {
+    body.no-scroll {
+        position: fixed;
+    }
+    body.wpcd-srp header {
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        background: #fff;
+        z-index: 9999;
+    }
+    body.wpcd-srp header .row, body.wpcd-vdp header .row {
+        height: 74px;
+    }
+}

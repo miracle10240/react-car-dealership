@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, select, textarea {
+  outline: none;
+  border: 0px;
+  padding: 17px 22px;
+  border-radius: 5px;
+  background: #F9F9F9;
+  color: #4A4A4A;
+  font-size: 16px;
+  font-family: 'General Sans', sans-serif;
+  font-weight: 500;
+  resize: none;
+}
+
+.container {
+  margin-top: 20px;
+  height: 100%;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding: 0 38px;
+}
+
+html, body {
+  font-family: 'General Sans', sans-serif;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+input[type=checkbox]:checked {
+  background-color: #1514c3;
+  border: 1px solid #387D65;
+}

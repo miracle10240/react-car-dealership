@@ -1,0 +1,287 @@
+@font-face {
+	font-family: 'General Sans';
+	src: url('../../../public/assets/fonts/GeneralSans-Semibold.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url('../../../public/assets/fonts/GeneralSans-Medium.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'General Sans';
+	src: url('../../../public/assets/fonts/GeneralSans-Regular.ttf');
+	font-weight: 400;
+}
+
+html, body {
+	font-family: 'General Sans', sans-serif;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+	width: 3px;
+	border-radius: 6px;
+}
+  
+::-webkit-scrollbar-track {
+	background: #fff;
+}
+  
+::-webkit-scrollbar-thumb {
+	background: #387D65;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+	background: #387D65;
+}
+
+h1 {
+	color: #26253C;
+	font-size: 82px;
+	font-family: 'General Sans', sans-serif;
+	font-weight: 600;
+	line-height: 120%;
+}
+
+h2 {
+	color: #26253C;
+	font-size: 66px;
+	font-family: 'General Sans', sans-serif;
+	font-weight: 600;
+	line-height: 110%;
+}
+
+h3 {
+	color: #222;
+	font-size: 28px;
+	font-family: 'General Sans', sans-serif;
+	font-weight: 600;
+	line-height: 130%;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1280px;
+}
+
+a {
+	color: #222;
+	text-decoration: none;
+}
+
+
+@media (max-width: 875px) {
+	a {
+		margin-top: -30px;
+	}
+
+}
+
+.btn {
+	font-family: 'General Sans', sans-serif;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 16px 32px;
+	border-radius: 5px;
+	border: 2px solid #387D65;
+	color: #387D65;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 130%;
+	max-height: 56px;
+	cursor: pointer;
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	transition: all 0.2s ease;
+}
+
+.btn:hover {
+	border: 2px solid #46AA87;
+	color: #46AA87;
+	text-decoration: none;
+}
+
+.btn:active {
+	border: 2px solid #2C6A55;
+	color: #2C6A55;
+}
+
+.btn img {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	left: -1.5px;
+	top: -1px;
+}
+
+.btn.hidden {
+	display: none;
+}
+
+.btn.green {
+	border: 2px solid #387D65;
+	background: #387D65;
+	color: #fff;
+}
+
+.btn.green:hover {
+	background: #46AA87;
+	border: 2px solid #46AA87;
+}
+
+.btn.green:active {
+	background: #2C6A55;
+}
+
+.btn.black {
+	border: 2px solid #222;
+	background: #222;
+	color: white;
+	color: #fff;
+}
+
+.btn.black:hover {
+	background: #404040;
+	border: 2px solid #404040;
+}
+
+.btn.black:active {
+	background: #222;
+	border: 2px solid #222;
+}
+
+.btn.yellow {
+	border: 2px solid #FFD900;
+	background: #FFD900;
+	color: #222;
+}
+
+.btn.yellow:hover {
+	background: #FFE657;
+	border: 2px solid #FFE657;
+}
+
+.btn.yellow:active {
+	background: #F1CD00;
+	border: 2px solid #F1CD00;
+}
+
+.btn.white {
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 10px 18px;
+	font-size: 14px;
+}
+
+.btn.circle {
+	margin-top: 20px;
+	margin-left: auto;
+	padding: 16px;
+    max-height: 56px;
+    max-width: 56px;
+	min-width: 56px;
+    min-height: 56px;
+	text-align: center;
+	border-radius: 32px;
+	color: #387D65;
+	font-weight: 500;
+}
+
+.btn.small {
+	font-weight: 400;
+	padding: 8px 32px;
+}
+
+.btn.heart-fill {
+    background: #FFE8E8;
+    border-color: #FFE8E8;
+}
+
+input, select, textarea {
+	outline: none;
+	border: 0px;
+	padding: 17px 22px;
+	border-radius: 5px;
+	background: #F9F9F9;
+	color: #4A4A4A;
+	font-size: 16px;
+	font-family: 'General Sans', sans-serif;
+	font-weight: 500;
+	resize: none;
+}
+select {
+    appearance: none;
+    background-image: url(https://cfwww.hgreg.com/template/img/srp/down-arrow.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 90% 21px;
+}
+input::placeholder, select::placeholder, textarea::placeholder {
+	color: #7E7E7E;
+}
+
+.widget_nav_menu {
+	list-style: none;
+}
+
+@media (max-width: 875px) {
+	::-webkit-scrollbar {
+		width: 2px;
+		height: 2px;
+	}
+	::-webkit-scrollbar-track {
+		background: transparent;
+	}
+	h1 {
+		font-size: 48px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	.row {
+		width: 100%;
+		margin-top: -80px;
+		overflow: hidden;
+		box-sizing: border-box;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.btn {
+		padding: 12px 26px;
+	}
+}
+
+@media (max-width: 1280px) and (min-width: 875px) {
+	.row {
+		width: 100%;
+		box-sizing: border-box;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.btn {
+		padding: 12px 26px;
+	}
+	::-webkit-scrollbar {
+		width: 2px;
+		height: 2px;
+	}
+	::-webkit-scrollbar-track {
+		background: transparent;
+	}
+	h1 {
+		font-size: 66px;
+	}
+	h2 {
+		font-size: 48px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+}

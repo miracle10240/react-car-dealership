@@ -1,0 +1,44 @@
+.gzlmDn {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.eQKFbg {
+    width: 100%;
+    height: 55px;
+    background: rgb(16, 174, 67);
+    border-radius: 8px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.bHnkrU {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.jlvRFp {
+    height: 23px;
+    width: 23px;
+    margin-right: 3px;
+}
+.fBczDC {
+    margin: 0px 0px 0px 3px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
